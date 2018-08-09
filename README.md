@@ -19,7 +19,7 @@ The following codes can produce some of simulation results in our paper titled a
 
 NC_decoder: functions of network deocding.
 
-MP_analysis: funcitons of message-passing decoding for analysis.
+MP_analysis: functions of message-passing decoding for analysis.
 
 # Copyright
 
