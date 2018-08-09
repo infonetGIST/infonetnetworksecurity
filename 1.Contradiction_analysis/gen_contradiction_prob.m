@@ -1,8 +1,13 @@
-% -------------------------------------------------------------------------
-% filename : gen_contradiction_prob.m
-% Objectives : this script generates contradiction probabilities of compromised relays and usual relays
-% written by Woong-Bi Lee, July 2018
-% -------------------------------------------------------------------------
+% ***************************************************************** 
+% COPYRIGHT (c) 2018 Heung-No Lee, and Woong-Bi Lee. 
+% E-mail: heungno@gist.ac.kr, woongbi.lee@gmail.com
+% Affiliation: INFONET Laboratory, Gwangju Institute of Science and
+% Technology (GIST), Republic of Korea
+% homepage: http://infonet.gist.ac.kr
+% *****************************************************************  
+% filename: gen_contradiction_prob.m
+% this script generates contradiction probabilities of compromised relays and usual relays
+% *****************************************************************
 %% Parameters
 % Ns: # of sources, Nr: # of relays, dv: # of edges per variable node, dc: # of edges per check node
 % case 1

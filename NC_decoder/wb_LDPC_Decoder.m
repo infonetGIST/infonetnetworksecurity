@@ -1,3 +1,24 @@
+% ***************************************************************** 
+% COPYRIGHT (c) 2018 Heung-No Lee, and Woong-Bi Lee. 
+% E-mail: heungno@gist.ac.kr, woongbi.lee@gmail.com
+% Affiliation: INFONET Laboratory, Gwangju Institute of Science and
+% Technology (GIST), Republic of Korea
+% homepage: http://infonet.gist.ac.kr
+% *****************************************************************  
+% filename: wb_LDPC_Decoder.m
+% This code is for floating-point based message passing decoding.
+% *****************************************************************
+% --------------------- Input --------------------- 
+% H: parity-check matrix
+% Q1: indices of variable nodes at each check node
+% Q2: indices of check nodes at each variable node
+% Num_iteration: maximum number of iterations
+% LR_f: Log-likelihood ratio (LLR) of input signal
+% ***************************************************************** 
+% --------------------- Output --------------------- 
+% LR_p: posterior LLR
+% ***************************************************************** 
+
 function [LR_p] = wb_LDPC_Decoder(H,Q1,Q2,Num_iteration,LR_f)
 
 n = size(H,2); % codeword length

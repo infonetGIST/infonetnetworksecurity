@@ -1,8 +1,13 @@
-% -------------------------------------------------------------------------
-% filename : gen_contradiction_prob.m
-% Objectives : this script generates observation window to satisfy the false alarm probability
-% written by Woong-Bi Lee, July 2018
-% -------------------------------------------------------------------------
+% ***************************************************************** 
+% COPYRIGHT (c) 2018 Heung-No Lee, and Woong-Bi Lee. 
+% E-mail: heungno@gist.ac.kr, woongbi.lee@gmail.com
+% Affiliation: INFONET Laboratory, Gwangju Institute of Science and
+% Technology (GIST), Republic of Korea
+% homepage: http://infonet.gist.ac.kr
+% *****************************************************************  
+% filename: Observation_window.m
+% this script generates observation window to satisfy the false alarm probability
+% *****************************************************************
 %% Parameters
 % Ns: # of sources, Nr: # of relays, dv: # of edges per variable node, dc: # of edges per check node
 % case 1

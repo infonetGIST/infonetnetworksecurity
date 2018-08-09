@@ -1,6 +1,29 @@
-
-% mode==1; all attack probabilities are equal
-% mode==2; all attack probabilities are different
+% ***************************************************************** 
+% COPYRIGHT (c) 2018 Heung-No Lee, and Woong-Bi Lee. 
+% E-mail: heungno@gist.ac.kr, woongbi.lee@gmail.com
+% Affiliation: INFONET Laboratory, Gwangju Institute of Science and
+% Technology (GIST), Republic of Korea
+% homepage: http://infonet.gist.ac.kr
+% *****************************************************************  
+% filename: wb_Main_DAS_NetworkCoding.m
+% this script generates number of polarity contradictions given observation
+% window
+% *****************************************************************
+% --------------------- Input --------------------- 
+% Ns: number of source nodes
+% Nd: number of relays
+% pc: compromised rate 
+% pa: attack probability at relay nodes
+% EsNodB: Es/No [dB]
+% num_avg: observation window
+% mode: #1 all attack probabilities are equal
+%       #2 all attack probabilities are different
+% ***************************************************************** 
+% --------------------- Output --------------------- 
+% AveLRContradict: Number of polarity contradictions
+% tmp_pos: True attack positions
+% *****************************************************************
+%%
 function [AveLRContradict, tmp_pos] = wb_Main_DAS_NetwrokCoding(Ns,Nd,pc,pa,EsNodB,num_avg,mode)
 
 Num_iteration=100; 

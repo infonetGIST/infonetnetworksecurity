@@ -1,8 +1,13 @@
-% -------------------------------------------------------------------------
-% filename : detection_eval.m
-% Objectives : this script generates detection and false alarm probabilities with varying observation window
-% written by Woong-Bi Lee, July 2018
-% -------------------------------------------------------------------------
+% ***************************************************************** 
+% COPYRIGHT (c) 2018 Heung-No Lee, and Woong-Bi Lee. 
+% E-mail: heungno@gist.ac.kr, woongbi.lee@gmail.com
+% Affiliation: INFONET Laboratory, Gwangju Institute of Science and
+% Technology (GIST), Republic of Korea
+% homepage: http://infonet.gist.ac.kr
+% *****************************************************************  
+% filename: detection_eval.m
+% this script generates detection and false alarm probabilities with varying observation window
+% *****************************************************************
 %% Parameters
 addpath('../H_matrix/Fixed_Nr100/Ns50_icr5_dv10_dc6');
 addpath('../NC_decoder');

@@ -1,10 +1,15 @@
-% -------------------------------------------------------------------------
-% filename : Reverse_method.m
-% Objectives : this script generates bit error rates using reversing
+% ***************************************************************** 
+% COPYRIGHT (c) 2018 Heung-No Lee, and Woong-Bi Lee. 
+% E-mail: heungno@gist.ac.kr, woongbi.lee@gmail.com
+% Affiliation: INFONET Laboratory, Gwangju Institute of Science and
+% Technology (GIST), Republic of Korea
+% homepage: http://infonet.gist.ac.kr
+% *****************************************************************  
+% filename: Reverse_method.m
+% this script generates bit error rates using discarding
 % method in cooperative wireless multiple access networks under pollution
-% attacks
-% written by Woong-Bi Lee, July 2018
-% -------------------------------------------------------------------------
+% attacks.
+% *****************************************************************
 %% Parameters
 % case 1
 Ns = 50; Nr = 100; dv = 10; dc = 6; num_avg = 186;

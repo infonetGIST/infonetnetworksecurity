@@ -1,6 +1,15 @@
-%DAS(Distributed Assistant Antenna System) Network performance simulation
+% ***************************************************************** 
+% COPYRIGHT (c) 2018 Heung-No Lee, and Woong-Bi Lee. 
+% E-mail: heungno@gist.ac.kr, woongbi.lee@gmail.com
+% Affiliation: INFONET Laboratory, Gwangju Institute of Science and
+% Technology (GIST), Republic of Korea
+% homepage: http://infonet.gist.ac.kr
+% *****************************************************************  
+% filename: wb_Main_gn_Initial_matrix.m
+% this script generates a generator matrix and parity check matrix
+% *****************************************************************
+%%
 clc;clear;close all;
-
 %System Parameters
 Ns = 50; %# of Senders
 Nd = 100; %# of distributed relays

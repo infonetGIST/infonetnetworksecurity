@@ -1,8 +1,13 @@
-% -------------------------------------------------------------------------
-% filename : draw_hisotram.m
-% Objectives : this script generates detection and false alarm probabilities with varying observation window
-% written by Woong-Bi Lee, July 2018
-% -------------------------------------------------------------------------
+% ***************************************************************** 
+% COPYRIGHT (c) 2018 Heung-No Lee, and Woong-Bi Lee. 
+% E-mail: heungno@gist.ac.kr, woongbi.lee@gmail.com
+% Affiliation: INFONET Laboratory, Gwangju Institute of Science and
+% Technology (GIST), Republic of Korea
+% homepage: http://infonet.gist.ac.kr
+% *****************************************************************  
+% filename: draw_hisotram.m
+% this script generates detection and false alarm probabilities with varying observation window
+% *****************************************************************
 %%
 addpath('../MP_analysis');
 

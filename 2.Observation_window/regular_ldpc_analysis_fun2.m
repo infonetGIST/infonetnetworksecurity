@@ -1,3 +1,28 @@
+% ***************************************************************** 
+% COPYRIGHT (c) 2018 Heung-No Lee, and Woong-Bi Lee. 
+% E-mail: heungno@gist.ac.kr, woongbi.lee@gmail.com
+% Affiliation: INFONET Laboratory, Gwangju Institute of Science and
+% Technology (GIST), Republic of Korea
+% homepage: http://infonet.gist.ac.kr
+% *****************************************************************  
+% filename: regular_ldpc_analysis_fun2.m
+% this script generates polarity contradictions probabilities at
+% compromised relays and usual relays
+% *****************************************************************
+% --------------------- Input --------------------- 
+% p: error proability due to channel
+% pa: attack probability 
+% rc: compromised rate 
+% dv: number of edges at variable node
+% dc: number of edges at check node
+% mode: #1 Unanimity Rule
+%       #2 Majority Rule
+% ***************************************************************** 
+% --------------------- Output --------------------- 
+% Z_comp: polarity contradiction probability of compromised relay
+% Z_usual: polarity contradiction probability of usual relay
+% *****************************************************************
+%%
 function[Z_comp, Z_usual]=regular_ldpc_analysis_fun2(p,pa,rc,dv,dc,mode)
 
 j = dv; % degree of variable nodes
