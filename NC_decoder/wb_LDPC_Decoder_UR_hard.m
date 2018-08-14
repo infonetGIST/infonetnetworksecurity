@@ -19,7 +19,7 @@
 % LR_p: posterior LLR
 % *****************************************************************
 
-function [LR_p] = wb_LDPC_Decoder_UR_hard2(H,Q1,Q2,Num_iteration,LR_f)
+function [LR_p] = wb_LDPC_Decoder_UR_hard(H,Q1,Q2,Num_iteration,LR_f)
 
 n = size(H,2); % codeword length
 j = max(sum(H)); % Max. No. of 1's in a column
